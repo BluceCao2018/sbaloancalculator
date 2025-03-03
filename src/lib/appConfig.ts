@@ -1,7 +1,7 @@
 export const appConfig = {
     i18n: {
       // locales: ["en", "de", "es"] as const,
-      locales: ["en"],//, "zh", "tw", "ko", "ja", "pt", "es", "de", "fr", "vi", "ar", "nl", "pl"] as const,
+      locales: ["en", "zh", "tw", "ko", "ja", "pt", "es", "de", "fr", "vi", "ar", "nl", "pl"] as const,
       defaultLocale: "en" as const,
       localeLabels: {
         en: "English",
