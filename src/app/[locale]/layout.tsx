@@ -59,9 +59,17 @@ export default async function RootLayout({
     <html lang={locale}>
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <main className="min-h-screen bg-gray-50">
-            {children}
-          </main>
+        <ThemeProvider attribute="class">
+        <main className="flex-1">{children}</main>
+                <GoogleAdsenseScript />
+                <GoogleAnalyticsScript />
+                <PlausibleAnalyticsScript />
+                <Toaster 
+                  theme="system" 
+                  closeButton
+                  richColors
+                />
+            </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>
