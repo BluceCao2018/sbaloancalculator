@@ -54,7 +54,7 @@ export default async function RootLayout({
   params: { locale: string }
 }) {
   const messages = await getMessages(locale)
-locale="en";
+
   return (
     <html lang={locale}>
       <body className={inter.className}>
