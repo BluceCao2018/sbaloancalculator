@@ -40,7 +40,11 @@ export default async function SBACalculatorPage() {
       <section className="max-w-4xl mx-auto">
         <h2 className="text-2xl font-semibold mb-6 text-center">Choose Your SBA Loan Calculator</h2>
         <div className="space-y-8">
-          <LoanMatcher />
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-1 rounded-2xl shadow-lg">
+            <div className="bg-white rounded-xl">
+              <LoanMatcher />
+            </div>
+          </div>
           <div className="text-center text-gray-600">Or select a SBA Loan Calculator directly:</div>
           <CalculatorCards />
         </div>
