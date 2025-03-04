@@ -15,7 +15,49 @@ export default function sitemap(): MetadataRoute.Sitemap {
     //     priority: 0.9,
     //   },
     {
-      url: 'category', // category
+      url: 'sba-7a-loan-calculator', // category
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: 'sba-504-loan-calculator', // category
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: 'sba-504-loan-equipment-calculator', 
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: 'sba-504-loan-green-building-calculator', 
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: 'sba-504-loan-real-estate-calculator', 
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: 'sba-504-loan-payment-calculator', 
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: 'va-loan-calculator', 
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: 'va-loan-calculator-texas-veterans', 
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 0.9,
@@ -50,7 +92,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const routeUrl = route.url === '' ? '' : `/${route.url}`;
     return {
         ...route,
-        url: `https://funbenchmark.com${routeUrl}`,
+        url: `https://sbaloancalculator.net${routeUrl}`,
       };
     }
   );
