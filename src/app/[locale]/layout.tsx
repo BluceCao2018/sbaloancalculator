@@ -58,7 +58,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
-        <ThemeProvider attribute="class">
+        <ThemeProvider attribute="class" forcedTheme="light">
         <Layout>{children}</Layout>
                 <GoogleAdsenseScript />
                 <GoogleAnalyticsScript />
