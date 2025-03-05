@@ -4,7 +4,6 @@ import { SBA7aCalculator } from '@/components/calculators/SBA7aCalculator';
 import Link from 'next/link';
 
 export async function generateMetadata() {
-  const t = await getTranslations('sba');
   const w = await getTranslations('website');
   return {
     title: 'SBA 7(a) Loan Calculator: Calculate Monthly Payments & Terms',

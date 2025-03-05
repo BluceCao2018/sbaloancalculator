@@ -4,7 +4,6 @@ import { SBA504Calculator } from '@/components/calculators/SBA504Calculator';
 import Link from 'next/link';
 
 export async function generateMetadata() {
-  const t = await getTranslations('sba');
   const w = await getTranslations('website');
   return {
     title: 'SBA 504 Loan Calculator',

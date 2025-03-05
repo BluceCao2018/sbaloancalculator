@@ -22,7 +22,7 @@ export function Footer() {
                   height={size}
                   alt="DomainScore"
                 />
-                <span className="inline-block font-bold">funbenchmark.com</span>
+                <span className="inline-block font-bold">sbaloancalculator.net</span>
               </Link>
             </h3>
             <p className="mt-4 text-xs ">
@@ -44,16 +44,12 @@ export function Footer() {
                   {t('home')}
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/category" className="text-base">
                   {t('category')}
                 </Link>
-              </li>
-              <li>
-                <Link href="/tests/reactiontime" className="text-base">
-                  Reaction Time Test
-                </Link>
-              </li>
+              </li> */}
+              
               {/* <li>
                 <Link href="/article" className="text-base">
                   {t('article')}
@@ -95,7 +91,7 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t pt-8">
           <p className="text-base text-center">
-            &copy; {new Date().getFullYear()} funbenchmark.com. {t('copyright')}
+            &copy; {new Date().getFullYear()} sbaloancalculator.net. {t('copyright')}
           </p>
         </div>
       </div>

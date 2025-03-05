@@ -46,10 +46,10 @@ export const Navigation = ({ categories }: navigationProp ) => {
       label: t('homeBtn'),
       href: "/",
     },
-    {
-      label: t('categoryBtn'),
-      href: "/category",
-    },
+    // {
+    //   label: t('categoryBtn'),
+    //   href: "/category",
+    // },
     // {
     //   label: t('articleBtn'),
     //   href: "/article",
@@ -108,7 +108,7 @@ export const Navigation = ({ categories }: navigationProp ) => {
               height={size}
               alt="DomainScore"
             />
-            <span className="inline-block font-bold">Fun Benchmark</span>
+            <span className="inline-block font-bold">SBA Loan Calculator</span>
           </Link>
           <nav className="hidden md:flex gap-6">
             <NavigationMenu>
@@ -120,6 +120,49 @@ export const Navigation = ({ categories }: navigationProp ) => {
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
+                <NavigationMenuItem>
+                <NavigationMenuTrigger className={cn('font-medium')}>
+                  SBA Loan Calculator
+                </NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="grid w-[400px] gap-3 p-4">
+                    <ListItem
+                      title="SBA 504 Loan Calculator"
+                      href="/sba-504-loan-calculator"
+                    >
+                      Calculate SBA 504 loan payments for commercial real estate and equipment purchases
+                    </ListItem>
+                    <ListItem
+                      title="SBA 7(a) Loan Calculator"
+                      href="/sba-7a-loan-calculator"
+                    >
+                      Calculate SBA 7(a) loan payments for general business purposes
+                    </ListItem>
+                  </ul>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+
+              <NavigationMenuItem>
+              <NavigationMenuTrigger className={cn('font-medium')}>
+                VA Loan Calculator
+              </NavigationMenuTrigger>
+              <NavigationMenuContent>
+                <ul className="grid w-[400px] gap-3 p-4">
+                  <ListItem
+                    title="VA Loan Calculator"
+                    href="/va-loan-calculator"
+                  >
+                    Calculate VA loan payments with standard VA loan benefits and terms
+                  </ListItem>
+                  <ListItem
+                    title="Texas Veterans VA Loan Calculator"
+                    href="/va-loan-calculator-texas-veterans"
+                  >
+                    Special VA loan calculator with Texas veteran benefits and lower rates
+                  </ListItem>
+                </ul>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
                 {/* <NavigationMenuItem>
                   <NavigationMenuTrigger className={cn('font-medium', '/category' === pathname && "font-extrabold")}>{t('categoryBtn')}</NavigationMenuTrigger>
                   <NavigationMenuContent>
@@ -178,6 +221,7 @@ export const Navigation = ({ categories }: navigationProp ) => {
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem> */}
+
               </NavigationMenuList>
             </NavigationMenu>
           </nav>

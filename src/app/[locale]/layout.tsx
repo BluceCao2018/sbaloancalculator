@@ -9,7 +9,6 @@ import { PlausibleAnalyticsScript } from "@/components/analytics/PlausibleAnalyt
 import GoogleAdsenseScript from "@/components/ads/GoogleAdsenseScript";
 import { ThemeProvider } from "next-themes"
 import { DM_Sans } from "next/font/google";
-import { cn } from "@/lib/utils";
 
 import { NextIntlClientProvider } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
@@ -60,7 +59,7 @@ export default async function RootLayout({
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
         <ThemeProvider attribute="class">
-        <main className="flex-1">{children}</main>
+        <Layout>{children}</Layout>
                 <GoogleAdsenseScript />
                 <GoogleAnalyticsScript />
                 <PlausibleAnalyticsScript />

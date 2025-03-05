@@ -8,7 +8,6 @@ export const metadata = {
 };
 
 export default async function TexasVALoanCalculatorPage() {
-  const t = await getTranslations('va');
   
   return (
     <div className="w-full mx-auto py-0 space-y-12">

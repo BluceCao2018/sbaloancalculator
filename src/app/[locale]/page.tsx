@@ -8,7 +8,6 @@ import { CalculatorCards } from '@/components/CalculatorCards';
 import { LoanMatcher } from '@/components/LoanMatcher';
 
 export async function generateMetadata() {
-  const t = await getTranslations('sba');
   const w = await getTranslations('website');
   return {
     title: 'SBA Loan Calculator: Estimate Payments, Rates & Eligibility',
