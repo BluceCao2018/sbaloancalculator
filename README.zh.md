@@ -1,68 +1,42 @@
-# Fun Benchmark
+# SBA Loan Calculator
 
-[![Fun Benchmark](https://funbenchmark.com/images/logo.png)](https://funbenchmark.com)
+Welcome to [SBA Loan Calculator](https://sbaloancalculator.net/), your comprehensive resource for calculating SBA and VA loan payments.
 
-Fun Benchmark is a comprehensive platform offering various cognitive tests and brain games to help you measure and improve different aspects of your abilities.
+## Available Calculators
 
-## 🎯 Features
+### SBA Loan Calculators
 
-### Reaction & Speed Tests
-- [Reaction Time Test](https://funbenchmark.com/reaction-time) - Test your visual reflexes
-- [Audio Reaction Time](https://funbenchmark.com/audio-reaction) - Measure your response to audio stimuli
-- [Aim Trainer](https://funbenchmark.com/aim) - Test your targeting speed and accuracy
-- [Typing Test](https://funbenchmark.com/typing) - Measure your typing speed and accuracy
+- [SBA 504 Loan Calculator](https://sbaloancalculator.net/sba-504-loan-calculator) - Calculate commercial real estate and equipment loan payments
+  - [SBA 504 Real Estate Loan Calculator](https://sbaloancalculator.net/sba-504-loan-real-estate-calculator) - Specialized calculator for real estate projects
+  - [SBA 504 Equipment Loan Calculator](https://sbaloancalculator.net/sba-504-loan-equipment-calculator) - Dedicated calculator for equipment financing
+  - [SBA 504 Green Building Loan Calculator](https://sbaloancalculator.net/sba-504-loan-green-building-calculator) - Calculator for energy-efficient projects
+  - [SBA 504 Loan Payment Calculator](https://sbaloancalculator.net/sba-504-loan-payment-calculator) - General payment calculator for 504 loans
 
-### Memory Tests
-- [Sequence Memory](https://funbenchmark.com/sequence) - Remember patterns of increasing length
-- [Number Memory](https://funbenchmark.com/number-memory) - Test your numerical memory capacity
-- [Visual Memory](https://funbenchmark.com/memory) - Memorize and recall visual patterns
-- [Verbal Memory](https://funbenchmark.com/verbal-memory) - Test your word recognition abilities
-- [Chimp Test](https://funbenchmark.com/chimp) - Challenge yourself against chimpanzee memory capabilities
+- [SBA 7(a) Loan Calculator](https://sbaloancalculator.net/sba-7a-loan-calculator) - Calculate payments for general business purposes
 
-### Perception Tests
-- [Color Perception](https://funbenchmark.com/color-perception) - Test your ability to distinguish colors
-- [Color Blindness](https://funbenchmark.com/color-blindness) - Ishihara-style color vision test
-- [Shades of Gray](https://funbenchmark.com/gray-shades) - Test your grayscale discrimination
-- [51 Shades of Gray](https://funbenchmark.com/fifty-one-gray-shades) - Advanced grayscale perception challenge
-- [Time Perception](https://funbenchmark.com/time-perception) - Test your time estimation abilities
+### VA Loan Calculators
 
-### Auditory Tests
-- [Hearing Frequency Range](https://funbenchmark.com/hearing-test) - Test your hearing range (20Hz-20,000Hz)
-- [Perfect Pitch Test](https://funbenchmark.com/perfect-pitch) - Measure your musical note recognition
-- [Audio Reaction Time](https://funbenchmark.com/audio-reaction) - Test your response to sound
+- [VA Loan Calculator](https://sbaloancalculator.net/va-loan-calculator) - Standard VA loan payment calculator
+- [Texas Veterans VA Loan Calculator](https://sbaloancalculator.net/va-loan-calculator-texas-veterans) - Specialized calculator with Texas veteran benefits
 
-### Visual Recognition
-- [Face Recognition Test](https://funbenchmark.com/face-recognition) - Test your ability to remember and recognize faces
+## Features
 
-## 🌐 Try It Out
+- Accurate payment calculations based on current rates
+- Specialized calculators for different loan purposes
+- Texas-specific benefits for veterans
+- Real-time updates of payment estimates
+- User-friendly interface
 
-Visit [https://funbenchmark.com](https://funbenchmark.com) to start testing and improving your cognitive abilities!
+## About
 
-## 🎯 Purpose
+Our loan calculators help small business owners and veterans make informed decisions about their financing options. Each calculator is tailored to specific needs:
 
-Fun Benchmark aims to provide:
-- Accurate measurements of various cognitive abilities
-- Engaging ways to test and improve your skills
-- Comparative statistics to track your progress
-- Scientific approach to cognitive testing
+- SBA 504 loans for major fixed asset purchases
+- SBA 7(a) loans for general business purposes
+- VA loans with standard and Texas-specific benefits
 
-## 📱 Accessibility
+Visit [SBA Loan Calculator](https://sbaloancalculator.net/) to start calculating your loan payments today.
 
-- Works on desktop and mobile devices
-- Available in multiple languages
-- Free to use
-- No registration required
+## Contact
 
-## 🔗 Quick Links
-
-- [Home](https://funbenchmark.com)
-- [Categories](https://funbenchmark.com/category)
-- [Articles](https://funbenchmark.com/article)
-- [Changelog](https://funbenchmark.com/changelog)
-- [About](https://funbenchmark.com/about)
-- [Privacy Policy](https://funbenchmark.com/privacy)
-- [Terms of Service](https://funbenchmark.com/terms)
-
-## 📄 Legal
-
-© 2024 funbenchmark.com. All rights reserved.
+For more information, visit our website at [https://sbaloancalculator.net/](https://sbaloancalculator.net/)
