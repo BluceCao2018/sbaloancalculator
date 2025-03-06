@@ -5,7 +5,7 @@ export const metadata = {
   title: 'SBA 504 Equipment Loan Calculator',
   description: 'Calculate SBA 504 loan payments for heavy equipment and machinery purchases. Get accurate monthly payments, terms, and costs.',
   alternates: {
-    canonical: '/sba-504-loan-calculator'
+    canonical: '/sba-504-loan-equipment-calculator'
   }
 };
 

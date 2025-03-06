@@ -5,6 +5,9 @@ import { getTranslations } from 'next-intl/server';
 export const metadata = {
   title: 'VA Loan Calculator | Calculate VA Mortgage Payments & Benefits',
   description: 'Free VA loan calculator to estimate your monthly VA mortgage payments. Calculate VA funding fees, interest rates, and loan terms for veteran home loans.',
+  alternates: {
+    canonical: '/va-loan-calculator'
+  }
 };
 
 export default async function VALoanCalculatorPage() {

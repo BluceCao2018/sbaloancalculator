@@ -5,7 +5,7 @@ export const metadata = {
   title: 'SBA 504 Green Building Loan Calculator',
   description: 'Calculate SBA 504 loan payments for green building and sustainable energy projects. Get accurate monthly payments, terms, and costs.',
   alternates: {
-    canonical: '/sba-504-loan-calculator'
+    canonical: '/sba-504-loan-green-building-calculator'
   }
 };
 

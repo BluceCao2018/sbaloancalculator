@@ -5,6 +5,9 @@ import { getTranslations } from 'next-intl/server';
 export const metadata = {
   title: 'Texas Veterans VA Loan Calculator | Special TX Veteran Benefits',
   description: 'Calculate VA loan payments with Texas-specific veteran benefits. Lower interest rates, special programs, and additional benefits for Texas veterans.',
+  alternates: {
+    canonical: '/va-loan-calculator-texas-veterans'
+  }
 };
 
 export default async function TexasVALoanCalculatorPage() {

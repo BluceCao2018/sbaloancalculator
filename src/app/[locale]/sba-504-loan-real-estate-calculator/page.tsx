@@ -5,7 +5,7 @@ export const metadata = {
   title: 'SBA 504 Real Estate Loan Calculator',
   description: 'Calculate SBA 504 loan payments for commercial real estate purchases. Get accurate monthly payments, terms, and costs.',
   alternates: {
-    canonical: '/sba-504-loan-calculator'
+    canonical: '/sba-504-loan-real-estate-calculator'
   }
 };
 

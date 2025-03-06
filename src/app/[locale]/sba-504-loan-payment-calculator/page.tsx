@@ -5,7 +5,7 @@ export const metadata = {
   title: 'SBA 504 Loan Payment Calculator | Calculate Monthly Payments',
   description: 'user SBA 504 loan payment calculator to estimate monthly payments, interest rates, and terms for your commercial real estate or equipment financing.',
   alternates: {
-    canonical: '/sba-504-loan-calculator'
+    canonical: '/sba-504-loan-payment-calculator'
   }
 };
 
