@@ -73,6 +73,160 @@ export default async function SBA7aCalculatorPage() {
           </p>
         </div>
       </section>
+
+      {/* Policy Interpretation Section */}
+      <section className="max-w-4xl mx-auto">
+        <h2 className="text-3xl font-bold mb-6">SBA 7(a) Loan Policy Guidelines</h2>
+        <div className="prose prose-lg max-w-none">
+          <h3>Eligibility Requirements</h3>
+          <p>
+            The SBA 7(a) loan program has specific eligibility criteria that businesses must meet:
+          </p>
+          <ul>
+            <li>Must operate for profit in the United States</li>
+            <li>Meet SBA size standards for small business</li>
+            <li>Have reasonable owner equity to invest</li>
+            <li>Demonstrate good character and credit history</li>
+            <li>Show ability to repay the loan from business cash flow</li>
+          </ul>
+
+          <h3>Interest Rate Structure</h3>
+          <p>
+            SBA 7(a) loans feature regulated interest rates that may be fixed or variable:
+          </p>
+          <ul>
+            <li>Base rate: Prime rate, LIBOR, or SBA peg rate</li>
+            <li>Maximum spread: 2.25% to 2.75% over base rate for most loans</li>
+            <li>Rates may vary based on loan size and term length</li>
+            <li>Negotiable with lender within SBA guidelines</li>
+          </ul>
+
+          <h3>2025 Program Updates</h3>
+          <p>
+            Recent changes to the SBA 7(a) program include:
+          </p>
+          <ul>
+            <li>Increased maximum loan amounts for specific industries</li>
+            <li>Enhanced terms for working capital loans</li>
+            <li>Simplified application process for loans under $350,000</li>
+            <li>Special provisions for veteran-owned businesses</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Calculator Usage Guide Section */}
+      <section className="max-w-4xl mx-auto">
+        <h2 className="text-3xl font-bold mb-6">How to Use the SBA 7(a) Loan Calculator</h2>
+        <div className="prose prose-lg max-w-none">
+          <p>
+            Our SBA 7(a) Loan Calculator helps you estimate monthly payments and total costs. 
+            Follow these steps for accurate calculations:
+          </p>
+          <ol>
+            <li>
+              <strong>Enter Loan Amount</strong>: Input your desired loan amount into the calculator. 
+              Remember that SBA 7(a) loans can go up to $5 million.
+            </li>
+            <li>
+              <strong>Select Loan Term</strong>: Choose your loan term based on use:
+              <ul>
+                <li>Up to 25 years for real estate</li>
+                <li>Up to 10 years for equipment</li>
+                <li>Up to 10 years for working capital</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Input Interest Rate</strong>: Enter your expected interest rate. The calculator 
+              will show how different rates affect your payments.
+            </li>
+            <li>
+              <strong>Review Results</strong>: The calculator instantly displays:
+              <ul>
+                <li>Monthly payment amount</li>
+                <li>Total interest over loan term</li>
+                <li>Total cost of the loan</li>
+                <li>Amortization schedule</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      {/* Calculator FAQ Section */}
+      <section className="max-w-4xl mx-auto">
+        <h2 className="text-3xl font-bold mb-6">SBA 7(a) Loan Calculator FAQ</h2>
+        <div className="prose prose-lg max-w-none">
+          <h3>How accurate is the SBA 7(a) Loan Calculator?</h3>
+          <p>
+            The calculator provides reliable estimates based on current market conditions. However, 
+            actual loan terms may vary based on lender requirements, credit history, and business qualifications.
+          </p>
+
+          <h3>Can I calculate different scenarios with the SBA 7(a) Loan Calculator?</h3>
+          <p>
+            Yes, you can easily adjust loan amounts, terms, and interest rates to compare different scenarios. 
+            This helps you understand how changes in these variables affect your monthly payments.
+          </p>
+
+          <h3>Does the calculator include SBA guarantee fees?</h3>
+          <p>
+            The basic calculation focuses on principal and interest payments. For complete cost analysis, 
+            consult with a lender about additional fees such as the SBA guarantee fee and packaging fees.
+          </p>
+
+          <h3>Can I calculate prepayment scenarios?</h3>
+          <p>
+            While the standard calculator doesn't include prepayment calculations, you can estimate savings 
+            by comparing different term lengths. There are no prepayment penalties on SBA 7(a) loans.
+          </p>
+
+          <h3>How often should I use the calculator during my loan search?</h3>
+          <p>
+            We recommend using the calculator whenever you receive new rate quotes or consider different 
+            loan amounts. This helps you compare offers and understand your potential financial commitment.
+          </p>
+        </div>
+      </section>
+
+      {/* General FAQ Section */}
+      <section className="max-w-4xl mx-auto">
+        <h2 className="text-3xl font-bold mb-6">SBA 7(a) Loan FAQ</h2>
+        <div className="prose prose-lg max-w-none">
+          <h3>What can SBA 7(a) loan funds be used for?</h3>
+          <p>
+            SBA 7(a) loans offer flexible use of funds for:
+          </p>
+          <ul>
+            <li>Working capital and inventory</li>
+            <li>Equipment and machinery purchases</li>
+            <li>Real estate acquisition or improvement</li>
+            <li>Business acquisition or expansion</li>
+            <li>Debt refinancing under certain conditions</li>
+          </ul>
+
+          <h3>What is the typical approval timeline?</h3>
+          <p>
+            The approval process typically takes:
+          </p>
+          <ul>
+            <li>2-3 weeks for initial review</li>
+            <li>30-60 days for full approval</li>
+            <li>2-4 weeks for closing after approval</li>
+          </ul>
+
+          <h3>What documentation is required?</h3>
+          <p>
+            Common requirements include:
+          </p>
+          <ul>
+            <li>Business and personal tax returns</li>
+            <li>Financial statements</li>
+            <li>Business plan and projections</li>
+            <li>Collateral documentation</li>
+            <li>Personal financial statement</li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
 } 

@@ -105,7 +105,7 @@ export default async function SBA504CalculatorPage() {
             <li>Green energy projects may qualify for preferential rates and terms</li>
           </ul>
 
-          <h3>2024 Program Updates</h3>
+          <h3>2025 Program Updates</h3>
           <p>
             Recent policy changes have enhanced the SBA 504 program's accessibility:
           </p>
