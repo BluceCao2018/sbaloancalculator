@@ -10,10 +10,20 @@ import { LoanMatcher } from '@/components/LoanMatcher';
 export async function generateMetadata() {
   const w = await getTranslations('website');
   return {
-    title: 'SBA Loan Calculator: Estimate Payments, Rates & Eligibility',
-    description: 'Use SBA loan calculator to estimate monthly payments, interest rates, and eligibility for SBA 7(a) and 504 loans. ',
+    title: 'Free SBA Loan Calculator 2025: Compare Rates from 2.25%',
+    description: 'Free calculator for SBA loans with current rates from 2.25%. Compare 7(a) & 504 loans, estimate monthly payments & total costs. Updated daily. ',
     alternates: {
       canonical: `${w("domain")}`
+    },
+    openGraph: {
+      title: 'Free SBA Loan Calculator 2025: Compare Rates from 2.25%',
+      description: 'Free calculator for SBA loans with current rates from 2.25%. Compare 7(a) & 504 loans, estimate monthly payments & total costs. Updated daily.',
+      type: 'website',
+      images: [{
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+      }],
     }
   };
 }
