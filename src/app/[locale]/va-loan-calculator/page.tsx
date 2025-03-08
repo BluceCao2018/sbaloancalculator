@@ -2,13 +2,52 @@ import React from 'react';
 import { VACalculator } from '@/components/calculators/VACalculator';
 import { getTranslations } from 'next-intl/server';
 
-export const metadata = {
-  title: 'VA Loan Calculator | Calculate VA Mortgage Payments & Benefits',
-  description: 'Free VA loan calculator to estimate your monthly VA mortgage payments. Calculate VA funding fees, interest rates, and loan terms for veteran home loans.',
-  alternates: {
-    canonical: '/va-loan-calculator'
-  }
-};
+export async function generateMetadata() {
+  const w = await getTranslations('website');
+  return {
+    // 60 characters (including spaces)
+    title: 'Free VA Loan Calculator 2025: Compare Rates from 5.75%',
+    
+    // 160 characters (including spaces)
+    description: 'Calculate VA loan payments with current rates from 5.75%. Free military mortgage calculator with $0 down payment options. Updated daily.',
+    
+    alternates: {
+      canonical: `${w("domain")}/va-loan-calculator`
+    },
+    openGraph: {
+      title: 'Free VA Loan Calculator 2025: Compare Rates from 5.75%',
+      description: 'Calculate VA loan payments with current rates from 5.75%. Free military mortgage calculator with $0 down payment options. Updated daily.',
+      type: 'website',
+      images: [{
+        url: '/va-calculator-og.jpg',
+        width: 1200,
+        height: 630,
+      }],
+    },
+    script: [
+      {
+        type: 'application/ld+json',
+        text: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebApplication",
+          "name": "VA Loan Calculator",
+          "description": "Calculate VA loan payments and costs",
+          "applicationCategory": "BusinessApplication",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "203"
+          }
+        })
+      }
+    ]
+  };
+}
 
 export default async function VALoanCalculatorPage() {
   

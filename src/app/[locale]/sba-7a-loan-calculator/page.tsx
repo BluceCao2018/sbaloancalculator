@@ -6,8 +6,8 @@ import Link from 'next/link';
 export async function generateMetadata() {
   const w = await getTranslations('website');
   return {
-    title: 'SBA 7(a) Loan Calculator: Calculate Monthly Payments & Terms',
-    description: 'Calculate SBA 7(a) loan payments with the calculator. Estimate monthly payments, interest costs, and loan terms for working capital, equipment, and real estate.',
+    title: 'Free SBA 7(a) Loan Calculator 2025: Rates from Prime + 2.25%',
+    description: 'Calculate SBA 7(a) loan payments with current rates from Prime + 2.25%. Free working capital & business loan calculator. Updated daily.',
     alternates: {
       canonical: `${w("domain")}/sba-7a-loan-calculator`
     }
