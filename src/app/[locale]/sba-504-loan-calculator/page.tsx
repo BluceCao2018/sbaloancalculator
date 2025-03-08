@@ -232,6 +232,60 @@ export default async function SBA504CalculatorPage() {
           </p>
         </div>
       </section>
+
+      {/* Navigation Links Section */}
+      <section className="max-w-4xl mx-auto">
+        <h2 className="text-3xl font-bold mb-6">Learn More About SBA 504 Loans</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <Link href="/sba-504-loan-calculator/benefits" 
+                className="bg-white rounded-lg p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">SBA 504 Loan Benefits</h3>
+            <p className="text-gray-600">
+              Discover the advantages of SBA 504 loans including low rates, long terms, and minimal down payments.
+            </p>
+          </Link>
+
+          <Link href="/sba-504-loan-calculator/application-process"
+                className="bg-white rounded-lg p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">Application Process</h3>
+            <p className="text-gray-600">
+              Step-by-step guide to applying for an SBA 504 loan, including required documents and timeline.
+            </p>
+          </Link>
+
+          <Link href="/sba-504-loan-calculator/faq"
+                className="bg-white rounded-lg p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">Frequently Asked Questions</h3>
+            <p className="text-gray-600">
+              Find answers to common questions about SBA 504 loans, eligibility, and requirements.
+            </p>
+          </Link>
+
+          <Link href="/sba-504-loan-calculator/rates-and-fees"
+                className="bg-white rounded-lg p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">Rates & Fees</h3>
+            <p className="text-gray-600">
+              Current SBA 504 loan rates, fee structures, and total cost considerations.
+            </p>
+          </Link>
+
+          <Link href="/sba-504-loan-calculator/case-studies"
+                className="bg-white rounded-lg p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">Success Stories</h3>
+            <p className="text-gray-600">
+              Real-world examples of businesses that successfully used SBA 504 loans for growth.
+            </p>
+          </Link>
+
+          <Link href="/sba-504-loan-calculator/comparison"
+                className="bg-white rounded-lg p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">Loan Comparison</h3>
+            <p className="text-gray-600">
+              Compare SBA 504 loans with other financing options to find the best choice for your business.
+            </p>
+          </Link>
+        </div>
+      </section>
     </div>
   );
 } 
