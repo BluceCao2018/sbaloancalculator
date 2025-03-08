@@ -227,6 +227,60 @@ export default async function SBA7aCalculatorPage() {
           </ul>
         </div>
       </section>
+
+      {/* Navigation Links Section */}
+      <section className="max-w-4xl mx-auto">
+        <h2 className="text-3xl font-bold mb-6">Learn More About SBA 7(a) Loans</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <Link href="/sba-7a-loan-calculator/benefits" 
+                className="bg-white rounded-lg p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">SBA 7(a) Loan Benefits</h3>
+            <p className="text-gray-600">
+              Explore the advantages of SBA 7(a) loans including flexible use of funds, competitive rates, and longer terms.
+            </p>
+          </Link>
+
+          <Link href="/sba-7a-loan-calculator/application-process"
+                className="bg-white rounded-lg p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">Application Process</h3>
+            <p className="text-gray-600">
+              Complete guide to applying for an SBA 7(a) loan, with required documentation and timeline.
+            </p>
+          </Link>
+
+          <Link href="/sba-7a-loan-calculator/faq"
+                className="bg-white rounded-lg p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">Frequently Asked Questions</h3>
+            <p className="text-gray-600">
+              Get answers to common questions about SBA 7(a) loans, eligibility, and requirements.
+            </p>
+          </Link>
+
+          <Link href="/sba-7a-loan-calculator/rates-and-fees"
+                className="bg-white rounded-lg p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">Rates & Fees</h3>
+            <p className="text-gray-600">
+              Current SBA 7(a) loan rates, fee structures, and total cost considerations.
+            </p>
+          </Link>
+
+          <Link href="/sba-7a-loan-calculator/case-studies"
+                className="bg-white rounded-lg p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">Success Stories</h3>
+            <p className="text-gray-600">
+              Real business success stories using SBA 7(a) loans for growth and expansion.
+            </p>
+          </Link>
+
+          <Link href="/sba-7a-loan-calculator/comparison"
+                className="bg-white rounded-lg p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <h3 className="text-xl font-semibold mb-2">Loan Comparison</h3>
+            <p className="text-gray-600">
+              Compare SBA 7(a) loans with other financing options to find your ideal solution.
+            </p>
+          </Link>
+        </div>
+      </section>
     </div>
   );
 } 
