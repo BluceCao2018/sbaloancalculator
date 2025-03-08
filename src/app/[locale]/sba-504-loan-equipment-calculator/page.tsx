@@ -1,18 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
-import { useTranslations } from 'use-intl';
+import { getTranslations } from 'next-intl/server';
 
 export async function generateMetadata() {
-  const w = await useTranslations('website');
+  const t = await getTranslations('website');
+  
   return {
-    // 60 characters (including spaces)
     title: 'Free SBA 504 Equipment Loan Calculator 2025: Rates from 4.75%',
-    
-    // 160 characters (including spaces)
     description: 'Calculate SBA 504 equipment loan payments. Compare 10-year terms, 10% down options & fixed rates from 4.75%. Free calculator, updated daily.',
-    
     alternates: {
-      canonical: `${w("domain")}/sba-504-loan-equipment-calculator`
+      canonical: `${t('domain')}/sba-504-loan-equipment-calculator`
     },
     openGraph: {
       title: 'Free SBA 504 Equipment Loan Calculator 2025: Rates from 4.75%',

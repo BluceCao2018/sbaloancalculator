@@ -1,9 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
-import { useTranslations } from 'use-intl';
+import { getTranslations } from 'next-intl/server';
 
 export async function generateMetadata() {
-  const w = await useTranslations('website');
+  const t = await getTranslations('website');
+  
   return {
     // 60 characters (including spaces)
     title: 'Free SBA 504 Green Building Calculator 2025: Rates from 4.5%',
@@ -12,7 +13,7 @@ export async function generateMetadata() {
     description: 'Calculate SBA 504 green building loan payments. Compare 25-year terms, 10% down & fixed rates from 4.5%. LEED projects calculator, updated daily.',
     
     alternates: {
-      canonical: `${w("domain")}/sba-504-loan-green-building-calculator`
+      canonical: `${t('domain')}/sba-504-loan-green-building-calculator`
     },
     openGraph: {
       title: 'Free SBA 504 Green Building Calculator 2025: Rates from 4.5%',

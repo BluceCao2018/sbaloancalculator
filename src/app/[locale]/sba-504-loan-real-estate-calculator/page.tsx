@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import { useTranslations } from 'use-intl';
+import { getTranslations } from 'next-intl/server';
 
 export async function generateMetadata() {
-  const w = await useTranslations('website');
+  const w = await getTranslations('website');
   return {
     // 60 characters (including spaces)
     title: 'Free SBA 504 Real Estate Calculator 2025: Rates from 4.75%',
