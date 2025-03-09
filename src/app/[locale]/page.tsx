@@ -53,7 +53,7 @@ export default function HomePage() {
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
               <h3 className="text-2xl font-semibold mb-4">SBA 504 Loan Calculator</h3>
               <ul className="space-y-3 mb-6">
-                <li>• Fixed rates from 4.75%</li>
+                <li>• Fixed rates from <a href="/current-sba-loan-rates">4.75%</a></li>
                 <li>• Commercial real estate focus</li>
                 <li>• Up to 25-year terms</li>
                 <li>• State-specific property benefits</li>
